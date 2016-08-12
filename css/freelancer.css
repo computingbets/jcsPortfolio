@@ -503,3 +503,8 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+.caption {
+  width: 220px;
+  height: 158px;
+}
