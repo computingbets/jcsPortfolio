@@ -82,7 +82,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Seaweed Script', cursive !important;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -508,3 +508,10 @@ fieldset[disabled] .btn-success.active {
   width: 220px;
   height: 158px;
 }
+
+/*#contact {
+  margin: auto;
+  background-color: blue !important;
+  width: 50% !important;
+  border: 3px solid green;
+}*/
