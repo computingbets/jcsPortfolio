@@ -19,30 +19,14 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <style type="text/css">
-   header { background-image: url("http://www.sladestudios.com/wp-content/uploads/2010/07/stormyocean.jpg") !important;
-   font-family: 'Seaweed Script', cursive !important;}
-   header .intro-text .name {
-     font-family: 'Seaweed Script', cursive !important;
-   }
-   header .intro-text .skills {
-     font-family: 'Seaweed Script', 'Arizonia', cursive !important;
-   }
-   header .intro-text .quote {
-     font-family: 'Seaweed Script', 'Arizonia', cursive !important;
-   }
-   .success {
-     font-family: 'Seaweed Script', cursive !important;
-   }
-   #portfolio {
-     background-image: url("https://media1.giphy.com/media/l3fQnAa8cHBgzVQFq/200.gif") !important;
-   }
+
 </style>
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Arizonia|Seaweed+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Railway|Seaweed+Script" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,13 +57,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about" class="navab">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio" class="navport">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" class="navcon">Contact</a>
                     </li>
 
                 </ul>
@@ -99,29 +83,69 @@
                         <span class="name">John Staley</span>
                         <hr class="star-light">
                         <h3 class="quote">Don’t hire anyone you wouldn’t want to run into in the hallway at three in the morning." - Tina Fey, Bossypants</h3>
-                        <span class="skills"> This quote relates a quality that I have gained after years of collaboration and calibrating myself and group dynamics. It is one journey that continues to yield positivities from going into its depths. Another journey proving itself as a continuing wonder is, of course, front-end web development. The sites made in this porfolio during General Assembly's program are much akin to building a pontoon during a hurricane. The pace was fast, the time was limited, but the payoff meant smooth sailing. Now, the next step is crafting vessels that set sail from the port of profession.</span>
+                        <span class="skills"> This quote relates a quality that I have gained after years of collaboration and calibrating myself in group dynamics. The journey of collaboration is one that continues to yield positivities because I go into its depths. Another journey proving itself as a continuing wonder is, of course, front-end web development. The sites made in the porfolio section of this site were made during General Assembly's. The development process is much akin to building a pontoon during a hurricane. The pace was fast, the time was limited, but the payoff meant smooth sailing. Now, the next step is crafting vessels that set sail from the port of profession.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
+            <div class="container skillz">
+            <h1 id="skillz">Skills</h1>
+            <hr class="star-light">
+            <!-- <div class="row"> -->
+                <div id="skill1" class="col-xs-2">
+                  <img src="pics/javas.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill2">
+                  <img src="img/htmlCSS.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill3">
+                  <img src="pics/bootstrap.jpeg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill4">
+                  <img src="pics/hndlbars.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill5">
+                  <img src="pics/jqueryajax.jpeg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill6">
+                  <img src="pics/ruby.jpeg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill7">
+                  <img src="pics/rails.jpeg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill8">
+                  <img src="pics/sass.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill9">
+                  <img src="pics/gh.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill10">
+                  <img src="pics/mongo.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill11">
+                  <img src="pics/psql.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-xs-3 text-center" id="skill12">
+                  <img src="pics/exprnode.jpeg" class="img-responsive img-centered" alt="">
+                </div>
+            </div>
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2 class="aboutt">About</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>In my chess persuit, a partner said I would excel at web development. Both chess and web development are based on logic. Building a good app is like playing a chess game, it requires forethought, organization, and sometimes it may seem like little progress is being made but that's likely part of one of the most crucial steps! I want to develop because both chess and web development start with determination and have enjoyable payoffs the more one becomes skilled. The reason I develop is because I want to translate what is in my head to a website. This is easily said but not easily done. As I become more fluent in development languages, I see the payoff, akin to chess's, in the sense that enjoyment becomes more level with the initial determination. Though there is no ultimate level of development, more abilities come when I delve into programming and the desired result becomes more frequent.
+                    <p id="about1">In my chess persuit, a partner said I would excel at web development. Both chess and web development are based on logic. Building a good app is like playing a chess game, it requires forethought, organization, and sometimes it may seem like little progress is being made but that's likely part of one of the most crucial steps! I want to develop because both chess and web development start with determination and have enjoyable payoffs the more one becomes skilled. The reason I develop is because I want to translate what is in my head to a website. This is easily said but not easily done. As I become more fluent in development languages, I see the payoff, akin to chess's, in the sense that enjoyment becomes more level with the initial determination. Though there is no ultimate level of development, more abilities come when I delve into programming and the desired result becomes more frequent.
 
                 </div>
                 <div class="col-lg-4">
-                    <p>Along with chess, I have enjoyed a similar field that shares skills with web development. I have taken classes in five languages (Spanish, French, Italian, Latin, and German). In fact, I lived in France with my family for four months in 2000. Being immersed in culture and language in France is similar to being a student at General Assembly. There is a deluge of unknown terms. However, every bit of language I acquired, both in France and GA, was put to use and was really appreciated because it enabled me to make new pathways and I saw the results immediately. It opened new windows to unforseen experiences and I plan to continue this pattern here in Boston.  </p>
+                    <p id="about2">Along with chess, I have enjoyed a similar field that shares skills with web development. I have taken classes in five languages (Spanish, French, Italian, Latin, and German). In fact, I lived in France with my family for four months in 2000. Being immersed in culture and language in France is similar to being a student at General Assembly. There is a deluge of unknown terms. However, every bit of language I acquired, both in France and GA, was put to use and was really appreciated because it enabled me to make new pathways and I saw the results immediately. It opened new windows to unforseen experiences and I plan to continue this pattern here in Boston.  </p>
 </p>
                 </div>
             </div>
@@ -133,7 +157,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2 class="porto">Portfolio</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -249,8 +273,8 @@
     </div>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <ul>
+      <h2 class="concon">Contact</h2>
+      <ul class="conlist">
         <p>phone: 617-681-4194</p>
         <p>email: staley77@protonmail.com</p>
         <p>linkedin: <a href="https://www.linkedin.com/in/jstaley77">https://www.linkedin.com/in/jstaley77</a></p>

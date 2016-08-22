@@ -1,0 +1,94 @@
+#skillz {
+  text-align: center;
+}
+/*#skill7 {
+  height: 10px
+}
+#skill8 {
+  height:10px
+}*/
+#skill9 {
+  clear: left;
+}
+
+#skill3 {
+  margin-left: 30px
+}
+
+#about1 {
+  font-size: 25px;
+}
+
+#about2 {
+  font-size: 25px;
+}
+
+header {
+  background-position: center;
+}
+.navbar-brand {
+  font-family: "Railway", cursive;
+}
+
+header { background-image: url("http://www.sladestudios.com/wp-content/uploads/2010/07/stormyocean.jpg") !important;
+font-family: 'Seaweed Script', cursive !important;}
+header .intro-text .name {
+  font-family: 'Railway', cursive !important;
+}
+header .intro-text .skills {
+  font-family: 'Railway', cursive !important;
+}
+header .intro-text .quote {
+  font-family: 'Railway', cursive !important;
+  /*font-family: 'Seaweed Script', cursive !important;*/
+
+}
+.success {
+  font-family: 'Railway', cursive !important;
+}
+#portfolio {
+  background-image: url("https://media1.giphy.com/media/l3fQnAa8cHBgzVQFq/200.gif") !important;
+}
+#skillz {
+  font-family: "Railway", cursive;
+}
+
+
+.porto {
+  font-family: "Railway", cursive;
+  color: white;
+}
+
+{
+  font-family: "Railway", cursive;
+}
+
+.aboutt {
+  font-family: "Railway", cursive;;
+}
+
+.navab {
+  font-family: "Railway", cursive;
+}
+
+.navport {
+  font-family: "Railway", cursive;
+}
+
+.navcon {
+  font-family: "Railway", cursive;
+}
+
+.concon {
+  text-align: center;
+  font-family: "Railway", cursive;
+}
+
+.conlist {
+  text-align: center;
+  font-family: "Railway", cursive;
+}
+/*#skill1{
+  height: 15%;
+  width: 15%;
+}*/
