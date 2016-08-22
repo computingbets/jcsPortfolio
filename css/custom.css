@@ -88,6 +88,19 @@ header .intro-text .quote {
   text-align: center;
   font-family: "Railway", cursive;
 }
+
+#about {
+  background-image: url("../pics/bakrndabout1.png");
+  background-size: 300px 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.col-lg-4 {
+  z-index: 100;
+}
 /*#skill1{
   height: 15%;
   width: 15%;
