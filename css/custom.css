@@ -59,10 +59,6 @@ header .intro-text .quote {
   color: white;
 }
 
-{
-  font-family: "Railway", cursive;
-}
-
 .aboutt {
   font-family: "Railway", cursive;;
 }
@@ -86,6 +82,18 @@ header .intro-text .quote {
 
 .conlist {
   text-align: center;
+  font-family: "Railway", cursive;
+}
+
+.ckdeet {
+  font-family: "Railway", cursive;
+}
+
+.bbdeet{
+  font-family: "Railway", cursive;
+}
+
+.qtdeet {
   font-family: "Railway", cursive;
 }
 
