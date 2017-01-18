@@ -27,19 +27,19 @@ header {
   background-position: center;
 }
 .navbar-brand {
-  font-family: "Railway", monospace;;
+  font-family: "Railway", cursive;
 }
 
 header { background-image: url("http://www.sladestudios.com/wp-content/uploads/2010/07/stormyocean.jpg") !important;
-font-family: 'Seaweed Script', monospace !important;}
+font-family: 'Seaweed Script', cursive !important;}
 header .intro-text .name {
-  font-family: 'Railway', monospace !important;
+  font-family: 'Railway', cursive !important;
 }
 header .intro-text .skills {
-  font-family: 'Railway', monospace !important;
+  font-family: 'Railway', cursive !important;
 }
 header .intro-text .quote {
-  font-family: 'Railway', monospace !important;
+  font-family: 'Railway', cursive !important;
   /*font-family: 'Seaweed Script', cursive !important;*/
 
 }
